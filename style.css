@@ -1,0 +1,157 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(135deg, #cf9aff, #95c0ff);
+    color: #fff;
+
+}
+
+.container {
+    width: 100%;
+    /* Ajuster la largeur */
+    min-height: 100vh;
+    /* Ajuster la hauteur minimale pour prendre toute la hauteur de la fenêtre */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Centrer horizontalement */
+    align-items: center;
+    /* Centrer verticalement */
+    padding-top: 1%;
+    /* Ajuster le padding */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    /* Ajouter une ombre portée */
+}
+
+
+.container h1 {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 600;
+
+}
+
+.container h1 img {
+    width: 80px;
+
+}
+
+
+
+.container h2 img {
+    width: 40px;
+
+}
+
+
+li a {
+    display: block;
+    /* Convertit les liens en blocs pour remplir l'espace disponible */
+    padding: 10px;
+    /* Ajoute un remplissage à l'intérieur de chaque lien */
+    text-decoration: none;
+
+
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container li a {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#9418fd, #571094);
+    color: #fff;
+    font-size: 18px;
+    outline: 0px;
+    border: 0px;
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin: 10px 0 20px;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
+
+.container li:nth-child(1) a {
+    background: linear-gradient(#8B4513, #A0522D);
+
+}
+
+
+.container li:nth-child(2) a {
+    background: linear-gradient(#00ff00, #00cc00);
+
+}
+
+.container li:nth-child(3) a {
+    background: linear-gradient(#0000ff, #0000cc);
+
+}
+
+.container li:nth-child(4) a {
+    background: linear-gradient(#ffff00, #cccc00);
+
+}
+
+
+form {
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+label {
+    display: block;
+    /* Afficher les labels sur une ligne différente */
+    margin-bottom: 10px;
+    /* Espace entre les labels */
+}
+
+input[type="number"] {
+    outline: 0px;
+    border: 0px;
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin: 10px 0 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    background: wheat;
+    color: black;
+
+
+
+}
+
+
+
+button[type="submit"] {
+
+    /* Afficher le bouton sur une nouvelle ligne */
+
+    /* Occupera toute la largeur disponible */
+    padding: 10px 20px;
+    background: #00ff00;
+    color: maroon;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+#result {
+    margin-top: 20px;
+
+    font-size: 16px;
+    /* Espace en haut du résultat */
+}
