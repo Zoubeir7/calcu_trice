@@ -3,15 +3,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: linear-gradient(135deg, #cf9aff, #95c0ff);
+    background: url(img.png);
     color: #fff;
+    background-size: cover;
 
 }
 
 .container {
-    width: 100%;
+    width: 80%;
     /* Ajuster la largeur */
     min-height: 100vh;
+    margin: auto;
     /* Ajuster la hauteur minimale pour prendre toute la hauteur de la fenêtre */
     display: flex;
     flex-direction: column;
@@ -82,6 +84,7 @@ ul {
 
 .container li:nth-child(1) a {
     background: linear-gradient(#8B4513, #A0522D);
+    width: 100%;
 
 }
 
@@ -105,6 +108,8 @@ ul {
 form {
     margin-bottom: 20px;
     align-items: center;
+    width: 80%;
+    margin: auto;
 }
 
 label {
@@ -115,6 +120,7 @@ label {
 }
 
 input[type="number"] {
+    width: 100%;
     outline: 0px;
     border: 0px;
     border-radius: 10px;
@@ -124,6 +130,7 @@ input[type="number"] {
     margin-top: 10px;
     background: wheat;
     color: black;
+    
 
 
 
